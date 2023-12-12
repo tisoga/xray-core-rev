@@ -3,16 +3,16 @@ module github.com/xtls/xray-core
 go 1.21.4
 
 require (
+	github.com/djoeni/websocket v0.7.3
 	github.com/ghodss/yaml v1.0.1-0.20220118164431-d8423dcdf344
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.6.0
-	github.com/djoeni/websocket v0.7.3
 	github.com/miekg/dns v1.1.57
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pires/go-proxyproto v0.7.0
 	github.com/quic-go/quic-go v0.40.0
 	github.com/refraction-networking/utls v1.5.4
-	github.com/sagernet/sing v0.2.17
+	github.com/sagernet/sing v0.2.19
 	github.com/sagernet/sing-shadowsocks v0.2.5
 	github.com/seiflotfy/cuckoofilter v0.0.0-20220411075957-e3b120b3f5fb
 	github.com/stretchr/testify v1.8.4
@@ -23,7 +23,7 @@ require (
 	golang.org/x/crypto v0.15.0
 	golang.org/x/net v0.18.0
 	golang.org/x/sync v0.5.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/sys v0.15.0
 	golang.zx2c4.com/wireguard v0.0.0-20231022001213-2e0774f246fb
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0
